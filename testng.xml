@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="LeafTabs Automation" parallel="classes" verbose="10">
+  <test name="Leads">
+    <classes>
+      <class name="learnTestNG.DuplicateLead"/>
+      <class name="learnTestNG.EditFindLeads"/>
+      <class name="learnTestNG.CreateLead"/>
+      <class name="learnTestNG.DeleteLead"/>
+    </classes>
+  </test> <!-- Leads -->
+</suite> <!-- LeafTabs Automation -->

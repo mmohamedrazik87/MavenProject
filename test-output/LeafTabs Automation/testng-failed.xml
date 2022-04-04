@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [LeafTabs Automation]" parallel="classes">
+  <test name="Leads(failed)" parallel="classes">
+    <classes>
+      <class name="learnTestNG.DeleteLead">
+        <methods>
+          <include name="tc002"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- learnTestNG.DeleteLead -->
+      <class name="learnTestNG.DuplicateLead">
+        <methods>
+          <include name="tc003"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- learnTestNG.DuplicateLead -->
+    </classes>
+  </test> <!-- Leads(failed) -->
+</suite> <!-- Failed suite [LeafTabs Automation] -->
